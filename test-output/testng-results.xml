@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-04T18:45:53Z" name="Default suite" finished-at="2022-06-04T18:45:54Z" duration-ms="340">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@5495333e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-04T18:45:53Z" name="Default test" finished-at="2022-06-04T18:45:54Z" duration-ms="340">
+      <class name="runner.Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.Runner@5495333e]" started-at="2022-06-05T00:15:53Z" name="setUpClass" finished-at="2022-06-05T00:15:54Z" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@5495333e]" started-at="2022-06-05T00:15:54Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-05T00:15:54Z" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accessiblity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@5495333e]" started-at="2022-06-05T00:15:54Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-05T00:15:54Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Animation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@5495333e]" started-at="2022-06-05T00:15:54Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-05T00:15:54Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[App]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@5495333e]" started-at="2022-06-05T00:15:54Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-05T00:15:54Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Content]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@5495333e]" started-at="2022-06-05T00:15:54Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-05T00:15:54Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Graphics]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.Runner@5495333e]" started-at="2022-06-05T00:15:54Z" name="tearDownClass" finished-at="2022-06-05T00:15:54Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
